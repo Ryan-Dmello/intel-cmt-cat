@@ -1,5 +1,7 @@
 sudo: required
 dist: bionic
+arch:
+  - ppc64le
 before_script:
     - sudo apt-get -q update
     - sudo apt-get install -y swig cppcheck wget python3-virtualenv clang-format-9
